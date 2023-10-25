@@ -1,0 +1,45 @@
+
+.circle{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 13%;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.parent{
+    position: relative;
+ 
+    
+}
+.child-1{
+position: absolute;
+top: 50px;
+left: 4%;
+width: 10%;
+}
+.img-style{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+      
+}
+.img-style:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+    transition: scale(1.1);
+    transition-timing-function: ease-in-out;
+    
+}
+.child-2{
+    font-family: 'Times New Roman', Times, serif,cursive;
+    width: 2000px;
+    top: 200px;
+    color: rgb(255, 0, 21);
+    text-align: center;    
+    
+}
